@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald&display=swap');
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#ecf0f3;
+    height:90vh;
+    font-family:'Oswald';
+}
+.container{
+    padding:0px 30px 30px 30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+.counter {
+    display:flex;
+    margin:10px;
+}
+#increment, #decrement{
+    margin:15px;
+    border:none;
+    font-size:large;
+    height:30px;
+    width:30px;
+    border-radius:5px;
+    background:#ffffff;
+    box-shadow:5px 5px 8px #00000020;
+}
+#increment:hover, #decrement:hover {
+    box-shadow: inset 5px 5px 8px rgba(29, 28, 28, 0.096);
+}
+#counterVal{
+    margin:10px;
+    padding:10px 20px;
+    font-weight:medium;
+    background:#ffffff;
+}
+#reset{
+    border:none;
+    background:#ffffff;
+    box-shadow:5px 5px 8px #00000020;
+    border-radius:5px;
+    height:25px;
+    width:100%;
+}
+#reset:hover{
+    box-shadow:inset 5px 5px 8px rgba(29, 28, 28, 0.096);
+}
